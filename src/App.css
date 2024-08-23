@@ -1,0 +1,45 @@
+.container {
+  background-color: #111729;
+  height: 100vh;
+}
+
+.user-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.user-input.disable {
+  display: block;
+}
+
+.user-input.disable .images .logo {
+  width: 8rem;
+  padding: 2rem;
+}
+
+.images {
+  position: relative;
+}
+.images .logo {
+  width: 12rem;
+  margin-bottom: 2rem;
+}
+.images .illustration {
+  width: 25rem;
+  position: absolute;
+  left: 10rem;
+  bottom: -15rem;
+}
+
+.btn {
+  padding: 0.3rem 2.2rem;
+  background-color: #3662e3;
+  border: none;
+  border-radius: 10px;
+  height: 2.6rem;
+  color: #f2f5f9;
+  cursor: pointer;
+}

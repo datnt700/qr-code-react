@@ -1,0 +1,39 @@
+.qr-code-container {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  display: none;
+}
+
+.qr-code-container.active {
+  display: flex;
+}
+
+.qr-code-container .qr-code {
+  display: flex;
+  border-radius: 50%;
+  background-color: rgba(124, 124, 124, 0.2);
+  width: fit-content;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+  margin-bottom: 3rem;
+}
+.qr-code-container .qr-code img {
+  padding: 1rem;
+  background-color: #f2f5f9;
+  border-radius: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.code {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
