@@ -9,6 +9,7 @@
   align-items: center;
   flex-direction: column;
   height: 100%;
+  padding: 0 0.5rem;
 }
 
 .user-input.disable {
@@ -28,10 +29,10 @@
   margin-bottom: 2rem;
 }
 .images .illustration {
-  width: 25rem;
+  width: 8rem;
   position: absolute;
   left: 10rem;
-  bottom: -15rem;
+  bottom: 0rem;
 }
 
 .btn {
@@ -42,4 +43,13 @@
   height: 2.6rem;
   color: #f2f5f9;
   cursor: pointer;
+}
+
+@media only screen and (min-width: 750px) {
+  .images .illustration {
+    width: 25rem;
+    position: absolute;
+    left: 10rem;
+    bottom: -15rem;
+  }
 }
