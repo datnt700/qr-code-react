@@ -29,7 +29,7 @@ export const QRCodeContainer = ({
       <div className={styles['qr-code']}>
         <QRCode
           value={url}
-          size={200}
+          size={150}
           style={{
             padding: '2rem',
             backgroundColor: '#FFFFFF',
